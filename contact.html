@@ -49,16 +49,33 @@
                 
     </nav>
       
-      <div class="jumbotron">
-          <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          </div>
-    </div>
        
     <main>
 
-        <h2>Main Content</h2>
+       <div class="google-maps text-center">
+           <h2>Location:</h2><br/>
+        
+            <img src="https://maps.googleapis.com/maps/api/staticmap?center=Nepean,Ottawa,ON,Canada&zoom=15&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C45.2877714,-75.9263514&key=AIzaSyA6TS0_DF_6XS-1wDAW9AZGD4-BfJHb-o8" class="img-fluid img-thumbnail" alt="Google Map">
+        </div>
+        
+        <form>
+          <div class="form-group">
+            <label for="InputName">Name</label>
+            <input type="text" class="form-control" id="InputName" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="InputEmail">Email address</label>
+            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+
+
+          <div class="form-group">
+            <label for="FormControlTextarea">Your Pointless Message</label>
+            <textarea class="form-control" id="FormControlTextarea" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
         
     </main>
      
