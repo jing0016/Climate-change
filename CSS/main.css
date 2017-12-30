@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+h2{
+    font-family: 'Roboto Slab', serif;
+}
+a p{
+    font-family: 'Open Sans', sans-serif;
+}
+
 footer{
     background-color: #eee;
     margin: 30px auto 0 auto;
