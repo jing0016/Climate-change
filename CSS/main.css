@@ -3,10 +3,14 @@
     margin: 0;
 }
 
-h2{
+h2 h5{
     font-family: 'Roboto Slab', serif;
 }
 a p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+form{
     font-family: 'Open Sans', sans-serif;
 }
 
