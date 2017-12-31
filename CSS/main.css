@@ -4,13 +4,13 @@
 }
 
 h2, h5{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', Palatino, serif;
 }
 p,a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Verdana, sans-serif;
 }
 form > label,input,small,textarea,button{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 .google-maps{
