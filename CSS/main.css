@@ -9,49 +9,64 @@ h2, h5{
 p,a{
     font-family: 'Open Sans', sans-serif;
 }
-.google-maps{
-    padding: 30px 0;
-}
-h2{
-    padding-bottom: 15px;
-}
-
 form > label,input,small,textarea,button{
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
+.google-maps{
+    padding: 30px 0;
+}
+h2{
+    padding-bottom: 20px;
+    margin: 10px,0;
+}
 
 label[for="InputName"]{
     padding-top: 20px;
 }
 
-h2{
-    margin: 10px,0;
+.navbar{
+    background-color: #80A2E8;
 }
 
-footer{
-    background-color: #eee;
-    margin: 30px auto 0 auto;
-    text-align: center;
-   
+.navbar-nav a{
+    color: #DAEBFF;
 }
 
-footer > p{
-    float: left;
-    margin: 30px;
+.navbar-nav a:active,a:hover{
+    color: #BAD6E8;
 }
 
-footer > div{
-    float:right;
-    vertical-align: middle;
-    margin: 0 130px 30px 0;
+div.jumbotron{
+    background-color: #CDD6FF;
 }
 
+div.wrapper {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: #80A2E8;
+  margin: 30px auto 0 auto;
+}
+
+
+div.copyright{
+margin: 30px 0 0 20px;
+    color: #DAEBFF;
+}
+
+div.footer-iconic{
+    margin: 10px 30px 10px 0;
+    color: #DAEBFF;
+}
+
+.iconic-md{
+    fill:#DAEBFF;
+}
 
 .iconic-md:hover{
-    fill:red;
+    fill:#BAD6E8;
 }
 
 @media (max-width: 576px){
