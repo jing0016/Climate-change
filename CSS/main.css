@@ -3,15 +3,32 @@
     margin: 0;
 }
 
-h2 h5{
+h2, h5{
     font-family: 'Roboto Slab', serif;
 }
-a p{
+p,a{
+    font-family: 'Open Sans', sans-serif;
+}
+.google-maps{
+    padding: 30px 0;
+}
+h2{
+    padding-bottom: 15px;
+}
+
+form > label,input,small,textarea,button{
     font-family: 'Open Sans', sans-serif;
 }
 
-form{
-    font-family: 'Open Sans', sans-serif;
+
+
+
+label[for="InputName"]{
+    padding-top: 20px;
+}
+
+h2{
+    margin: 10px,0;
 }
 
 footer{
@@ -36,3 +53,10 @@ footer > div{
 .iconic-md:hover{
     fill:red;
 }
+
+@media (max-width: 576px){
+.col-sm-6 {
+    max-width: 90%;
+}
+}
+

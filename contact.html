@@ -29,7 +29,7 @@
                
         <div class="collapse navbar-collapse" id="collapsemenu">
         <ul class="navbar-nav navbar-left">
-            <a class="navbar-brand" href="#">Save The Weather</a>
+            <a class="navbar-brand" href="#">Save Human Civilization</a>
         </ul>
         <ul class="navbar-nav ml-auto">
             
@@ -54,28 +54,52 @@
     <main>
 
        <div class="google-maps text-center">
-           <h2>Contact Us</h2><br/>
+           <h2>Contact Us</h2>
         
             <img src="https://maps.googleapis.com/maps/api/staticmap?center=Nepean,Ottawa,ON,Canada&zoom=15&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C45.2877714,-75.9263514&key=AIzaSyA6TS0_DF_6XS-1wDAW9AZGD4-BfJHb-o8" class="img-fluid img-thumbnail" alt="Google Map">
         </div>
         
-        <form>
+        <form id="form-work" class="" name="form-work" action="#">
+         
+          <fieldset>
           <div class="form-group">
-            <label for="InputName">Name</label>
+           <div class="row">
+            <div class="mx-auto col-md-6 col-sm-6">
+            <label class="control-label" for="InputName">Name</label>
             <input type="text" class="form-control" id="InputName" placeholder="Your name">
+            </div>
+            </div>
           </div>
+          
           <div class="form-group">
-            <label for="InputEmail">Email address</label>
+               <div class="row">
+               <div class="mx-auto col-md-6 col-sm-6">
+            <label class="control-label" for="InputEmail">Email address</label>
             <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Your email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            </div>
           </div>
 
 
           <div class="form-group">
-            <label for="FormControlTextarea">Your Pointless Message</label>
+           <div class="row">
+          <div class="mx-auto col-md-6 col-sm-6">
+            <label class="control-label" for="FormControlTextarea">Your Pointless Message</label>
             <textarea class="form-control" id="FormControlTextarea" rows="5"></textarea>
           </div>
+          </div>
+           </div>
+          
+          <div class="form-group">
+           <div class="row">
+          <div class="mx-auto col-md-6 col-sm-6">
           <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          </div>
+          </div>
+          
+           </fieldset>
         </form>
         
     </main>
