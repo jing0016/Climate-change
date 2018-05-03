@@ -1,2 +1,2 @@
 # bootstrap-site
-A static profolio page.
+A static profolio page using bootstrap.
